@@ -1,0 +1,42 @@
+*{
+    border: 1px solid red;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #537188;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choices{
+    display: flex;
+    gap: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    background-color: #E1D4BB;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+form button{
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 20px;
+    background-color: #CBB279;
+}
